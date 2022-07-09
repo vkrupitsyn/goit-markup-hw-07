@@ -20,15 +20,19 @@
   height: 44px;
   border-radius: 50%;
   transition: background-color 250ms var(--cubic-bezier);
+
+  &:hover,
+&:active {
+  background-color: var(--accent-color);
+}
+&:hover .social-net__icon,
+&:active .social-net__icon {
+  fill: var(--primary-color);
+}
 }
 
 .social-net__link--footer {
   background-color: var(--footer-icon-bg);
-}
-
-.social-net__link:hover,
-.social-net__link:active {
-  background-color: var(--accent-color);
 }
 
 .social-net__icon {
@@ -37,10 +41,5 @@
 }
 
 .social-net__icon--footer {
-  fill: var(--primary-color);
-}
-
-.social-net__link:hover .social-net__icon,
-.social-net__link:active .social-net__icon {
   fill: var(--primary-color);
 }

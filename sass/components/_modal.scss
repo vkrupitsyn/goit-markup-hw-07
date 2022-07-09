@@ -36,10 +36,10 @@
   background-color: var(--primary-color);
   border: 1px solid var(--border-close-btn);
   cursor: pointer;
-}
 
-.modal__close-btn:hover .modal__close-btn-icon {
-  fill: var(--accent-color);
+  &:hover .modal__close-btn-icon {
+    fill: var(--accent-color);
+  }
 }
 
 .modal__close-btn-icon {

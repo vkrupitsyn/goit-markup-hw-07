@@ -14,11 +14,12 @@
   @extend %link;
 
   color: var(--secondary-text-color);
-}
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--accent-color);
-  transition: color 250ms var(--cubic-bezier);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    transition: color 250ms var(--cubic-bezier);
+  }
 }
 
 .contacts__icon {

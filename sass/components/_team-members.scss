@@ -19,14 +19,14 @@
     0px 2px 1px var(--box-shodow-third);
 
   background-color: var(--primary-color);
-}
 
-.team-members__card:nth-child(4n) {
+  &:nth-child(4n) {
   margin-right: 0;
 }
 
-.team-members__card:nth-last-child(-n + 4) {
+&:nth-last-child(-n + 4) {
   margin-bottom: 0;
+}
 }
 
 .team-members__thumb {

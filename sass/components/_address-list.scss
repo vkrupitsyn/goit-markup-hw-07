@@ -4,19 +4,19 @@
 
 .address-list__item {
   font-style: normal;
-}
 
-.address-list__item:not(:last-child) {
-  margin-bottom: 9px;
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .address-list__link {
   @extend %link;
   font-weight: normal;
   color: var(--opacity-adress-color);
-}
 
-.address-list__link:hover {
-  color: var(--accent-color);
-  transition: color 250ms var(--cubic-bezier);
+  &:hover {
+    color: var(--accent-color);
+    transition: color 250ms var(--cubic-bezier);
+  }
 }

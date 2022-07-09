@@ -13,12 +13,12 @@
   background-color: var(--accent-color);
   color: var(--primary-color);
   box-shadow: var(--box-shadow-btn);
-  transition: border 250ms var(--cubic-bezier), background-color 250ms var(--cubic-bezier),
-    color 250ms var(--cubic-bezier);
-}
-.main-button:hover,
-.main-button:focus {
-  background-color: var(--button-hover);
+  transition: background-color 250ms var(--cubic-bezier);
+
+  &:hover,
+  &:focus {
+    background-color: var(--button-hover);
+  }
 }
 
 .main-button--footer {
